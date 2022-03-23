@@ -1,0 +1,116 @@
+html
+{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    padding-bottom: 6rem;
+    background-color: rgb(172, 195, 201);
+}
+footer,header
+{
+    background-color: rgb(28, 10, 109);
+}
+footer
+{
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    color:white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+header
+{
+    text-align: center ;
+    color:white;
+    font-size: medium;
+}
+.lbl{
+    margin-left: 2px;
+}
+.MegaKontejner
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.da{
+    margin-right:auto;
+    margin-top: 5px;
+       
+}
+.kontejner{
+    display: flex;
+    border:  1px solid black;
+    margin: 5px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+}
+.kontejnerRed{
+    width:auto;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.kontejnerProizvodi{
+    flex-basis: 100%;
+  text-align: center;
+  border: 1px solid black;
+    flex-grow: 1;
+}
+.a{
+    width: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: flex;
+}
+.pom{
+    
+    display: flex;
+    border: 1px solid black;
+    float:none;
+    text-align: center;
+    justify-content: center;
+}
+.kontSkladisti{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    border: 1px solid black ;
+
+}
+.kontRaf{
+    text-align: center;
+    display: flex;
+    flex: 1 1 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.red{
+    display: flex;
+    border:  1px solid black;
+    margin: 5px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.butt {
+    border: 1px outset rgb(5, 77, 77);
+    background-color: white;
+    height:100px;
+    width:100px;
+    cursor:pointer;
+ }
+ .bt{
+    margin: 5px;
+    background-color:white;
+    border: 1px outset rgb(5, 77, 77);
+ }
+ .prikaz{
+    background-origin:content-box;
+    width:auto;
+ }
